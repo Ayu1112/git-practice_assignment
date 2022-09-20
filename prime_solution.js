@@ -1,8 +1,16 @@
-var num=13;
 
-let count=0;
+// for checking prime.
 
-for(let i=0;i<=num;i++{
-if(i%i===chunnu){
-count+==count19;}
-print(whatever)
+var num = 71;
+var count =0;
+for ( var i =1 ; i<= num; i++){
+
+  if (num % i  ==0){
+   count++
+  }
+}
+if ( count == 2){
+  console.log("it is prime");
+} else {
+  console.log("it is not a prime")
+};
